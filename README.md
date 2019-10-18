@@ -1,5 +1,4 @@
-# CRUD-Example-of-Spring-Boot-REST-JPA-MySQL
-# CRUD-Spring-Boot-JPA-MySQL
+
 # CRUD Example of Spring-Boot-REST-JPA-MySQL (Student-Teacher)
 1. You can clone it from github by running following command
   $ git clone https://github.com/dineshsatelkar-11/CRUD-Example-of-Spring-Boot-REST-JPA-MySQL-.git
@@ -73,7 +72,7 @@ set request body as raw with JSON payload
 9.To get a particular book, use following url with GET request type in postman
   http://localhost:8080/studentservice/students/<id>
 10.Now to add teacher use the following url with POST Request
-http://localhost:8081/teacherservice/teachers
+  http://localhost:8081/teacherservice/teachers
 11.To get list of teachers by using GET Request.
 http://localhost:8081/teacherservice/teachersCorrectedList/1
 
