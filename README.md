@@ -65,7 +65,7 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder= TRACE
   ```
   set content type as in header as application/json
 set request body as raw with JSON payload
-### 9.To get a particular book, use following url with GET request type in postman
+### 9.To get a particular student info, use following url with GET request type in postman
 ```
   http://localhost:8080/studentservice/students/<id>
   ```
