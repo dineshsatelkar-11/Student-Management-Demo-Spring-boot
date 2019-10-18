@@ -1,4 +1,4 @@
-# CRUD-Example-of-Spring-Boot-REST-JPA-MySQL-
+# CRUD-Example-of-Spring-Boot-REST-JPA-MySQL
 # CRUD-Spring-Boot-JPA-MySQL
 # CRUD Example of Spring-Boot-REST-JPA-MySQL (Student-Teacher)
 1. You can clone it from github by running following command
