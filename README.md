@@ -48,7 +48,7 @@ logging.level.org.hibernate.SQL= DEBUG
 logging.level.org.hibernate.type.descriptor.sql.BasicBinder= TRACE
 ```
 ### 6. Right click on StudentServiceApplication.java and TeacherServiceApplication.java  file and run as Java Application
-##Once Sprint Boot Application will be started successfully then we can call following Endpoints by using POSTMAN
+##Once Spring Boot Application will be started successfully then we can call following Endpoints by using POSTMAN
 ### 7. To get list of student call following endpoint with GET Request
 ```
   http://localhost:8080/studentservice/students
