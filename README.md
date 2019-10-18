@@ -81,6 +81,7 @@ set request body as raw with JSON payload
     "studentid":1
   }
   ```
+  (Subjects should be Physics,Maths,Chemistry)
 ### 11.To get list of teachers by using GET Request.
   ```
 http://localhost:8081/teacherservice/teachersCorrectedList/1
