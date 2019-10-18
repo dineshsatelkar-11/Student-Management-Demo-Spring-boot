@@ -48,7 +48,7 @@ logging.level.org.hibernate.SQL= DEBUG
 logging.level.org.hibernate.type.descriptor.sql.BasicBinder= TRACE
 ```
 ### 6. Right click on StudentServiceApplication.java and TeacherServiceApplication.java  file and run as Java Application
- ## Once Sprint Boot Application will be started successfully then we can call following Endpoints by using POSTMAN
+##Once Sprint Boot Application will be started successfully then we can call following Endpoints by using POSTMAN
 ### 7. To get list of student call following endpoint with GET Request
 ```
   http://localhost:8080/studentservice/students
@@ -56,6 +56,12 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder= TRACE
 ### 8.To Create New Student use following url with POST Request
 ```
   http://localhost:8080/studentservice/students
+  ```
+  ```
+  {
+    "name": "Nitest",
+    "email": "niteshsatelkar@gmail.com"
+  }
   ```
   set content type as in header as application/json
 set request body as raw with JSON payload
@@ -66,6 +72,14 @@ set request body as raw with JSON payload
 ### 10.Now to add teacher use the following url with POST Request
   ```
   http://localhost:8081/teacherservice/teachers
+  ```
+  ```
+  {
+    "name": "Nikhil",
+    "subject": "Chemistry",
+    "marks": 85,
+    "studentid":1
+  }
   ```
 ### 11.To get list of teachers by using GET Request.
   ```
